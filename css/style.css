@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f2f4f7;
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-light{
+    background: linear-gradient(90deg, #fd4f00, #fd7200);
+}
+.navbar-brand{
+    color: #fff!important;
+    font-size: 30px;
+}
+/**** Piechart starts here ****/
+.piechart{
+    background-color: #434c5e;
+}
+.highcharts-background{
+    fill: #434c5e;
+}
+#container {
+	max-width: 660px;
+	margin: auto;
+	height: 400px;
+	margin: 0 auto;
+}
+/* .highcharts-text-outline{
+    font-size: 20px;
+} */
+.highcharts-title,.highcharts-subtitle{
+    display: none;
+}
+.highcharts-point.highcharts-color-0{
+    fill: #69707e;
+    stroke-width: 0;
+}
+.highcharts-credits{
+    display: none;
+}
+.highcharts-text-outline{
+    visibility: hidden;
+}
+
+.highcharts-point.highcharts-color-1{
+    fill: #f48d31;
+    stroke-width: 0;
+}  
+.profile h2{
+    color: #fff;
+    position: absolute;
+    top: 39%;
+    left: 45%;
+    text-align: center;
+}
+img{
+    width: 60px;
+    height: 50px;
+   left: 26%;
+   top: 82%;
+   position: absolute;
+}
+.lady h4{
+    color: #fff;
+    text-align: left;
+    margin-left: 400px;
+    padding-bottom: 50px;
+}
+.highcharts-label.highcharts-data-label.highcharts-data-label-color-1{
+    font-size: 18px!important;
+}
+
+/**** Information Starts here *****/
+.info{
+    border: 0px solid #fff;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px 100px;
+    box-shadow: 0px 5px 10px #e4e6ed;
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.circle1,.circle2,.circle3,.circle4,.circle5,.circle6{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  left: -6%;
+   top: 13%;
+}
+.info h5{
+    padding-bottom: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.material-icons{
+    position: absolute;
+    font-size: 60px;
+    color: #ededee;
+    top: 23%;
+    left: 93%;
+}
+.progress{
+    border-radius: 150px;
+    height: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.progress-bar.bg-1,.circle1{
+    background-color: #ffad8d;
+    border-radius: 150px;
+}
+.progress-bar.bg-2,.circle2{
+    background-color: #abc3ce;
+    border-radius: 150px;
+}
+.progress-bar.bg-3,.circle3{
+    background-color: #9ac1a7;
+    border-radius: 150px;
+}
+.progress-bar.bg-4,.circle4{
+    background-color: #e5bdbd;
+    border-radius: 150px;
+}
+.progress-bar.bg-5,.circle5{
+    background-color: #c5bbe0;
+    border-radius: 150px;
+}
+.progress-bar.bg-6,.circle6{
+    background-color: #d6ceb0;
+    border-radius: 150px;
+}
+
+
+/***** Skip Starts here ****/
+.skip{
+    font-size: 25px;
+    text-align: center!important;
+    color: #0071bc;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/*******mobile*****/
+@media(min-width: 320px) and (max-width: 767px){
+    .container{
+        width: 100%;
+    }
+    .profile h2{
+        top: 35%;
+        left: 33%;
+    }
+    .lady h4{
+        font-size: 17px;
+        margin-left: 13px;
+    }
+    .circle1,.circle2,.circle3,.circle4,.circle5,.circle6{
+        top: 13%;
+        left: -25%;
+        height: 115px;
+        width: 112px;   
+    }
+    .material-icons{
+        left: 85%;
+        top: 47%;
+    }
+    img{
+        display: none;
+    }
+}
+
